@@ -15,7 +15,7 @@ pool.getConnection((err,connection)=>{
                 console.error('La Base de Datos tiene demasiadas conecciones');}
         if (err.code === 'ECONNREFUSED'){
                 console.error('La coneccion con la Base de Datos fue rechazada');} }
-    if(connection) connection.realise();
+    if(connection) connection.release();
     console.log('Coneccion a la Base de Datos exitosa!!!');
     return;
 });

@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    
-    <InicioPost msg="Mensaje de Inicio de Posgrado"/>
+    <InicioPost msg="Ofertas Acádemicas"/>
   </div>
 </template>
 
