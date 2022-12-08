@@ -1,4 +1,5 @@
 const musuario = require('../models/Usuario');
+const jwt = require('jsonwebtoken');
 
 module.exports = {
     borrar: (req,res) =>{

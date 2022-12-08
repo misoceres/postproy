@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <div>
+    <div class="container" >
       <h2>{{ msg }}</h2>
       <div class="container-fluid">
         
@@ -13,7 +13,7 @@
                   This content is a little bit longer.
                 </b-card-text>
                 <template #footer>
-                  <b-button variant="primary">Primary</b-button>
+                  <b-button variant="primary">Detalles</b-button>
                 </template>
               </b-card>
               </div>
@@ -25,7 +25,7 @@
                   This content is a little bit longer.
                 </b-card-text>
                 <template #footer>
-                  <b-button variant="primary">Primary</b-button>
+                  <b-button variant="primary">Detalles</b-button>
                 </template>
               </b-card>
             </div>
@@ -37,7 +37,7 @@
                   This content is a little bit longer.
                 </b-card-text>
                 <template #footer>
-                  <b-button variant="primary">Primary</b-button>
+                  <b-button variant="primary">Detalles</b-button>
                 </template>
               </b-card>
             </div>
